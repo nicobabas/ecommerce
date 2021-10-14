@@ -10,12 +10,14 @@
       ". . . .";
       height:40vh;
   } */
-  
-  .Products {
-    margin-top: 1.5rem;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-    min-height:40vh;
-  }
+
+.Products {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 40vh;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: stretch;
+}

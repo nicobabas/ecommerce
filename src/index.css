@@ -1,6 +1,5 @@
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 /*
@@ -13,7 +12,8 @@ code {
 
 :root {
   --noir: #202426;
-  --gris:rgb(233, 231, 231);
+  --gris: rgb(233, 231, 231);
+  --bleu: rgb(109, 223, 238);
 }
 
 /* 1 RESET */
@@ -142,25 +142,25 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-*{
+* {
   box-sizing: border-box;
 }
 
 /* 2 Block */
 
-main{
-  padding:2rem;
+main {
+  padding: 2rem;
 }
 
 /* 3 inline */
 
-a{
+a {
   text-decoration: none;
-  color:var(--gris);
+  color: var(--gris);
 }
 
-p{
-  font-size:1.2rem;
+p {
+  font-size: 1.2rem;
 }
 
 /* 4 ID */
