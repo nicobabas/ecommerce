@@ -1,0 +1,8 @@
+.Message{
+    margin-top: 1.5rem;
+    background-color: var(--gris);
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
